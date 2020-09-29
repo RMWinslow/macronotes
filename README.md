@@ -22,7 +22,7 @@ Inline latext how you doin? `\(x^3\)` \(x^2\)    ; `\\(x^4\\)` \\(x^4\\)   ;  `$
 
 ### Editting a theme to enable mathJax
 
-Prepend the following to the \_includes/head.html file from the jekyll theme. Using the default Minima theme, you can find this to copy and modify [here](https://github.com/jekyll/minima/blob/master/_includes/head.html)
+Prepend the following to the beginning of the  \_includes/head.html file from the jekyll theme. 
 
 ```html
 <!--renders latex-->
@@ -43,6 +43,7 @@ Prepend the following to the \_includes/head.html file from the jekyll theme. Us
     </script>
 ```
 
+Using the default Minima theme, you can find the file to copy over and modify [here](https://github.com/jekyll/minima/blob/master/_includes/head.html)
 
 ### Markdown
 
