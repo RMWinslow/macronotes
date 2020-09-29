@@ -32,9 +32,9 @@ Inline test 2 \\(x^2_i + u_u  \times \beta\\)
 
 Inline test 3 $x^2_i + u_u  \times \beta$
 
-Inline test 4 $$ \{ x^2_i + u_u  \times \beta$$
+Inline test 4 $$ \left{ x^2_i + u_u  \times \beta \right}$$
 
-Inline test 5 $\{ x^2_i + u_u  \times \beta$
+Inline test 5 $\left{ x^2_i + u_u  \times \beta \right}$
 
 
 ### Editting a theme to enable mathJax
