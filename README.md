@@ -12,10 +12,10 @@ Double dollar notation for display mode `$$x^2_i  \times \beta $$`:
 $$x^2_i$$
 
 Slash bracket display mode `\[x^2_i + u_u  \times \beta \]`: 
-\[x^2_i + u_u\]
+\[x^2_i + u_u  \times \beta \]
 
 Slash bracket display mode `\\[x^2_i + u_u \times \beta \\]`: 
-\[x^2_i + u_u\]
+\\[x^2_i + u_u  \times \beta \\]
 
 
 Inline latext how you doin? `\(x^3\)` \(x^2\)    ; `\\(x^4\\)` \\(x^4\\)   ;  `$x^5$` $x^6$
