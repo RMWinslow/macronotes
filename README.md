@@ -33,20 +33,6 @@ Inline test 2 \\(x^2_i + u_u  \times \beta\\)
 Inline test 3 $x^2_i + u_u  \times \beta$
 
 
-```Blahblahblah: 
-$$x^2_i \times \beta $$```
-
-Blahblahblah: 
-$$x^2_i \times \beta $$
-
-```Blahblahblah: 
-
-$$x^2_i \times \beta $$```
-
-Blahblahblah: 
-
-$$x^2_i \times \beta $$
-
 ### Editting a theme to enable mathJax
 
 Prepend the following to the beginning of the  \_includes/head.html file from the jekyll theme. 
