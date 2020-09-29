@@ -8,11 +8,41 @@ You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+Double dollar notation for display mode `$$x^2_i  \times \beta $$`:
 $$x^2_i$$
 
-`\[x^2_i + u_u\]`
+Slash bracket display mode `\[x^2_i + u_u  \times \beta \]`: 
+\[x^2_i + u_u\]
 
-Inline latext how you doin? \(x^2\)   `\(x^3\)`   \\(x^4\\)   `$x^5$` $x^6$
+Slash bracket display mode `\\[x^2_i + u_u \times \beta \\]`: 
+\[x^2_i + u_u\]
+
+
+Inline latext how you doin? `\(x^3\)` \(x^2\)    ; `\\(x^4\\)` \\(x^4\\)   ;  `$x^5$` $x^6$
+
+### Editting a theme to enable mathJax
+
+Prepend the following to the \_includes/head.html file from the jekyll theme. Using the default Minima theme, you can find this to copy and modify [here](https://github.com/jekyll/minima/blob/master/_includes/head.html)
+
+```html
+<!--renders latex-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>-->
+
+    <!--The following is used to allow the math to wordwrap.-->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            CommonHTML: { linebreaks: { automatic: true } },
+            "HTML-CSS": { linebreaks: { automatic: true } },
+            SVG: { linebreaks: { automatic: true } },
+            TeX: {extensions: ["enclose.js"]},
+            tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            processEscapes: true
+            }
+        });
+    </script>
+```
+
 
 ### Markdown
 
