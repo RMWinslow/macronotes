@@ -4,12 +4,16 @@
 
 yes
 
+For now, this is a copy of the template repo for the Just The Docs jekyll theme, with some tweaked colors, and the template editted to call MathJax for latex Rendering.
+
 You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+Github's parser makes `\(\)` and `\[\]` finicky:
+
 Double dollar notation for display mode `$$x^2_i  \times \beta $$`:
-$$x^2_i$$
+$$x^2_i \times \beta $$
 
 Slash bracket display mode `\[x^2_i + u_u  \times \beta \]`: 
 \[x^2_i + u_u  \times \beta \]
