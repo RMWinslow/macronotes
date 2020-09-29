@@ -26,6 +26,13 @@ Inline latext how you doin? `\(x^3\)` \(x^2\)    ; `\\(x^4\\)` \\(x^4\\)   ;  `$
 
 You need to have a blank line before the equation in $$$$ or github's jekyll stuff will think you actually want an inline equation. ... Bad design choice imo.
 
+Inline test 1 $$x^2_i + u_u  \times \beta$$
+
+Inline test 2 \\(x^2_i + u_u  \times \beta\\)
+
+Inline test 3 $x^2_i + u_u  \times \beta$
+
+
 ```Blahblahblah: 
 $$x^2_i \times \beta $$```
 
