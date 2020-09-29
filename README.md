@@ -34,7 +34,7 @@ Inline test 3 $x^2_i + u_u  \times \beta$
 
 Inline test 4 $$ \{ x^2_i + u_u  \times \beta$$
 
-Inline test 5 $ \{ x^2_i + u_u  \times \beta$
+Inline test 5 $\{ x^2_i + u_u  \times \beta$
 
 
 ### Editting a theme to enable mathJax
