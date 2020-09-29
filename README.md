@@ -12,7 +12,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Github's parser makes `\(\)` and `\[\]` finicky:
 
-Double dollar notation for display mode `$$x^2_i  \times \beta $$`:
+Double dollar notation for display mode `$$x^2_i  \times \beta $$`: 
 $$x^2_i \times \beta $$
 
 Slash bracket display mode `\[x^2_i + u_u  \times \beta \]`: 
