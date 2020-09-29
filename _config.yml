@@ -5,3 +5,5 @@ search_enabled: true
 color_scheme: solarized
 
 gh_edit_link: false  # show or hide edit this page link
+
+math_engine: nil
