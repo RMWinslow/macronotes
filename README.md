@@ -26,7 +26,7 @@ Prepend the following to the beginning of the  \_includes/head.html file from th
 
 ```html
 <!--renders latex-->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
     <!--The following is used to allow the math to wordwrap.-->
     <script type="text/x-mathjax-config">
