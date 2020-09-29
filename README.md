@@ -13,6 +13,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Github's parser makes `\(\)` and `\[\]` finicky:
 
 Double dollar notation for display mode `$$x^2_i  \times \beta $$`: 
+
 $$x^2_i \times \beta $$
 
 Slash bracket display mode `\[x^2_i + u_u  \times \beta \]`: 
@@ -21,8 +22,23 @@ Slash bracket display mode `\[x^2_i + u_u  \times \beta \]`:
 Slash bracket display mode `\\[x^2_i + u_u \times \beta \\]`: 
 \\[x^2_i + u_u  \times \beta \\]
 
-
 Inline latext how you doin? `\(x^3\)` \(x^2\)    ; `\\(x^4\\)` \\(x^4\\)   ;  `$x^5$` $x^6$
+
+You need to have a blank line before the equation in $$$$ or github's jekyll stuff will think you actually want an inline equation. ... Bad design choice imo.
+
+```Blahblahblah: 
+$$x^2_i \times \beta $$```
+
+Blahblahblah: 
+$$x^2_i \times \beta $$
+
+```Blahblahblah: 
+
+$$x^2_i \times \beta $$```
+
+Blahblahblah: 
+
+$$x^2_i \times \beta $$
 
 ### Editting a theme to enable mathJax
 
