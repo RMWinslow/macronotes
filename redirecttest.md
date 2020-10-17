@@ -1,5 +1,5 @@
 ---
-title: Redirect Test 2
+title: Redirect Test 3
 ---
 
 <!DOCTYPE html>
