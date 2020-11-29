@@ -2,6 +2,7 @@
 title: Pareto Efficiency in an Overlapping Generations Economy
 has_children: true
 parent: Past Prelims
+nav_exclude: true
 ---
 
 # Pareto Efficiency in an Overlapping Generations Economy
