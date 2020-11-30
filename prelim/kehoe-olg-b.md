@@ -69,14 +69,10 @@ $$\mytag{Credit MC}  \tilde{b}_t = 0$$
 
 
 
-<details markdown="block"><summary>Calculate the unique Sequential Markets equilibrium.</summary>
+<details open markdown="block"><summary>Calculate the unique Sequential Markets equilibrium.</summary>
 
 
-The unique Sequential Markets equilibrium has each consumer consume their endowments and save nothing. 
-$$\tilde{c}_0^1 = w_1^0$$. 
-And for all$$t=1,2,3,...$$, 
-$$\tilde{c}_t^t = w_t^t$$, 
-$$\tilde{c}_{t+1}^t = w_{t+1}^t$$, $$s_{t+1}^t = 0$$. 
+The unique Sequential Markets equilibrium has each consumer consume their endowments and save nothing. $$\tilde{c}_0^1 = w_1^0$$. And for all$$t=1,2,3,...$$, $$\tilde{c}_t^t = w_t^t$$, $$\tilde{c}_{t+1}^t = w_{t+1}^t$$, $$s_{t+1}^t = 0$$. 
 
 And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
