@@ -83,16 +83,15 @@ $$\mytag{Goods MC}  \hat{c}_t^{t-1} + \hat{c}_t^t = w_t^{t-1} + w_t^t$$
 
 
 
-<details><summary>Calculate the unique Arrow-Debreu equilibrium.</summary>
+<details markdown="block"><summary>Calculate the unique Arrow-Debreu equilibrium.</summary>
 
-<p>The unique Arrow-Debreu equilibrium has each consumer consume their endowments.
-
+The unique Arrow-Debreu equilibrium has each consumer consume their endowments.
 $\hat{c}_0^1 = w_1^0$. 
 And for all $t=1,2,3,...$, 
 $\hat{c}_t^t = w_t^t$, 
 $\hat{c}_{t+1}^t = w_{t+1}^t$. 
 
-<p>If we normalize $\hat{p}_1 = 1$, then  $\hat{p}_t = \hat{p}_1 \cdot 2^{t-1}$,
+If we normalize $\hat{p}_1 = 1$, then  $\hat{p}_t = \hat{p}_1 \cdot 2^{t-1}$.
 
 <details markdown="block"><summary>Explanation and Proof</summary>
 
