@@ -44,7 +44,7 @@ An Arrow-Debreu Equilibrium consists of:
 
 such that the following conditions are satisfied:
 
-**Gen $0$ Consumer Optimization:** 
+### **Gen 0 Consumer Optimization:** 
 Taking prices as given, consumer $0$ chooses $\hat{c}_1^0$ to solve 
 
 $$\begin{aligned}
@@ -57,14 +57,12 @@ $$\max_{c_1^0} \; \ln c_1^0$$
 
 subject to the constraints:
 
-$$\gdef\mytag#1{\tag*{\color{228B22}(#1)}}$$
-
 $$c_{1}^{0}\geq0 \mytag{Non-neg}$$
 
 $$\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}  \mytag{Budget}$$
 
 
-**Gen $t$ Consumer Optimization:** 
+### Gen t Consumer Optimization:
 Taking prices as given, consumer $t,t=1,2,...$ chooses $(\hat{c}^t_t, \hat{c}^t_{t+1})$ to solve
 
 
