@@ -86,6 +86,8 @@ And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
 ### Finding the equilibrium prices
 
+Combine budgets into a single intertemporal budget constraint:
+
 
 </details>
 
