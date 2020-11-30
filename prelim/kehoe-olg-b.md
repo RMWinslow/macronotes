@@ -61,7 +61,7 @@ $$\mytag{Credit MC}  \tilde{b}_t = 0$$
 
 
 </details>
-<br>
+
 
 
 
