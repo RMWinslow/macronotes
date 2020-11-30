@@ -17,12 +17,6 @@ The representative consumer in generation $0$ lives only in period $1$,
 prefers more consumption to less, and has the endowment $w_1^0 = 2$
 
 
-$$\htmlData{alt="This is a test"}{x}$$
-
-$$\htmlStyle{color: red;}{\sum_x x^2}$$
-
-
-
 
 
 ## Part a) Arrow-Debreu Equilibrium
@@ -44,7 +38,7 @@ An Arrow-Debreu Equilibrium consists of:
 
 such that the following conditions are satisfied:
 
-### **Gen 0 Consumer Optimization:** 
+### Gen 0 Consumer Optimization:
 Taking prices as given, consumer $0$ chooses $\hat{c}_1^0$ to solve 
 
 $$\begin{aligned}
@@ -55,11 +49,11 @@ $$\begin{aligned}
 
 $$\max_{c_1^0} \; \ln c_1^0$$
 
-subject to the constraints:
+*subject to the constraints:*
 
 $$c_{1}^{0}\geq0 \mytag{Non-neg}$$
 
-$$\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}  \mytag{Budget}$$
+$$\mytag{Budget}  \hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}  $$
 
 
 ### Gen t Consumer Optimization:
@@ -74,10 +68,10 @@ $$\begin{aligned}
 
 
 
-### **Markets Clear:** 
+### Markets Clear: 
 For all $t=1,2,...$:
 
-$$\hat{c}_t^{t-1} + \hat{c}_t^t = w_t^{t-1} + w_t^t$$
+$$\mytag{Goods MC}  \hat{c}_t^{t-1} + \hat{c}_t^t = w_t^{t-1} + w_t^t$$
 
 
 </details>
@@ -93,7 +87,7 @@ $$\hat{c}_t^{t-1} + \hat{c}_t^t = w_t^{t-1} + w_t^t$$
 
 <p>The unique Arrow-Debreu equilibrium has each consumer consume their endowments.
 
-<p>$\hat{c}_0^1 = w_1^0$. 
+$\hat{c}_0^1 = w_1^0$. 
 And for all $t=1,2,3,...$, 
 $\hat{c}_t^t = w_t^t$, 
 $\hat{c}_{t+1}^t = w_{t+1}^t$. 
@@ -133,6 +127,7 @@ So for all the equilibrium conditions to hold, it must be that $\hat{p}_{t+1} = 
 
 
 </details>
+
 </details>
 
 
