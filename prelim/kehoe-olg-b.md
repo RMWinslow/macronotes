@@ -1,5 +1,5 @@
 ---
-title: "Part (a) AD-Equilibrium" 
+title: "Part b) SM-Equilibrium" 
 parent: OLG - Pareto Efficiency
 grand_parent: Past Prelims
 ---
@@ -24,16 +24,16 @@ $$math^2$$
 
 # Pareto efficiency in an overlapping generations economy
 
-## Part a) Arrow-Debreu Equilibrium
+## Part b) Sequential Markets Equilibrium
 
-Define an Arrow-Debreu equilibrium for this economy. 
-Calculate the unique Arrow-Debreu equilibrium.
+Define a Sequential Markets equilibrium for this economy. 
+Calculate the unique Sequential Markets equilibrium.
 
 Click to expand solutions.
 
 <details markdown="block">
   <summary>
-    Define an Arrow-Debreu equilibrium for this economy.
+    Define a Sequential Markets equilibrium for this economy. 
   </summary>
 
 
@@ -45,7 +45,7 @@ Click to expand solutions.
 
 
 
-<details markdown="block"><summary>Calculate the unique Arrow-Debreu equilibrium.</summary>
+<details markdown="block"><summary>Calculate the unique Sequential Markets equilibrium.</summary>
 Markdown test
 
 
