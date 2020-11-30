@@ -1,8 +1,8 @@
 ---
-title: Pareto Efficiency in an Overlapping Generations Economy
+title: OLG - Pareto Efficiency
 has_children: true
 parent: Past Prelims
-nav_exclude: true
+nav_exclude: false
 ---
 
 # Pareto Efficiency in an Overlapping Generations Economy

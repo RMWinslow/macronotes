@@ -1,21 +1,23 @@
 ---
 title: "Part (a) AD-Equilibrium" 
-parent: Pareto Efficiency in an Overlapping Generations Economy
+parent: OLG - Pareto Efficiency
 grand_parent: Past Prelims
 ---
 
 # Pareto efficiency in an overlapping generations economy
 
-## Part a) 
+## Part a) Arrow-Debreu Equilibrium
 
 Define an Arrow-Debreu equilibrium for this economy. 
 Calculate the unique Arrow-Debreu equilibrium.
 
-<details>
+<details markdown="block">
   <summary>
     Click to show definition.
   </summary>
 Markdown test
+
+### header test
 
 - here is a list
 - Hello!
@@ -29,6 +31,9 @@ $$math^2$$
 
 <details><summary>Calculate the unique Arrow-Debreu equilibrium.</summary>
 Markdown test
+
+
+### header test
 
 - here is a list
 - Hello!
