@@ -88,7 +88,15 @@ And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
 Combine budgets into a single intertemporal budget constraint:
 
-$${c}_t^t + \frac{{c}_{t+1}^t}{1+r} = {w}_t^t + \frac{{w}_{t+1}^t}{1+r}$$
+$$\mathcal{L} = \ln(c_t^t) + c_{t+1}^t - \lambda\cdot\left[ p_t c_t^t + p_{t+1} c_{t+1} - p_t w_t^t - p_{t+1} w_{t+1}^t \right]$$
+
+First-order conditions:
+
+$$\begin{aligned}
+    0 &= \frac{1}{c_t^t} - \lambda_t p_t \\
+    0 &= 1 - \lambda_t p_{t+1} \\
+    p_t c_t^t + p_{t+1} c_{t+1}^t &= w_t^t + w_{t+1}^t\\
+\end{aligned}$$
 
 
 Combine the first two to get that $\frac{1}{c_t^t} = 1+r_{t+1}$. Plug in the fact that $c_t^t = w_t^t$ to get the result that $r_{t+1} = \frac{1}{c_t^t} - 1$.
