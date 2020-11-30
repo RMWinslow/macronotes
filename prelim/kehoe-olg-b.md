@@ -94,12 +94,11 @@ First-order conditions:
 
 $$\begin{aligned}
     0 &= \frac{1}{c_t^t} - \lambda_t \\
-    0 &= 1 - \lambda_t  \\
-    p_t c_t^t + p_{t+1} c_{t+1}^t &= w_t^t + w_{t+1}^t\\
+    0 &= 1 - \lambda_t \frac{1}{1+r} \\
 \end{aligned}$$
 
 
-Combine the first two to get that $\frac{1}{c_t^t} = 1+r_{t+1}$. Plug in the fact that $c_t^t = w_t^t$ to get the result that $r_{t+1} = \frac{1}{c_t^t} - 1$.
+Combine the first two to get that $\frac{1}{c_t^t} = 1+r_{t+1}$. Plug in the fact that $c_t^t = w_t^t$ to get the result that $r_{t+1} = \frac{1}{w_t^t} - 1$.
 
 With any other prices, the generation $t$ consumer would choose to save or borrow.
 
