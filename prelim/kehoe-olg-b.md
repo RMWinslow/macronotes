@@ -9,6 +9,18 @@ $$ x^2 \tag{Do tags even work?}$$
 
 # Pareto efficiency in an overlapping generations economy
 
+
+Consider an overlapping generations economy in which there is one good in each period
+and each generation, except the initial one, lives for two periods. The representative
+consumer in generation $t, t = 1,2,...,$ has the utility function
+
+$$\ln (c_t^t) + c_{t+1}^t$$
+
+and the endowment $(w_t^t, w_{t+1}^t)=(1,2)$.
+The representative consumer in generation $0$ lives only in period $1$,
+prefers more consumption to less, and has the endowment $w_1^0 = 2$
+
+
 ## Part b) Sequential Markets Equilibrium
 
 Define a Sequential Markets equilibrium for this economy. 
@@ -69,14 +81,14 @@ $$\mytag{Credit MC}  \tilde{b}_t = 0$$
 
 
 
-<details open markdown="block"><summary>Calculate the unique Sequential Markets equilibrium.</summary>
+<details markdown="block"><summary>Calculate the unique Sequential Markets equilibrium.</summary>
 
 
 The unique Sequential Markets equilibrium has each consumer consume their endowments and save nothing. $$\tilde{c}_0^1 = w_1^0$$. And for all$$t=1,2,3,...$$, $$\tilde{c}_t^t = w_t^t$$, $$\tilde{c}_{t+1}^t = w_{t+1}^t$$, $$s_{t+1}^t = 0$$. 
 
 And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
-<details  open markdown="block"><summary>Explanation and Proof</summary>
+<details  markdown="block"><summary>Explanation and Proof</summary>
 
 ### Equilibrium allocations are Autarky
 
