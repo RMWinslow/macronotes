@@ -86,12 +86,14 @@ $$\hat{c}_t^{t-1} + \hat{c}_t^t = w_2 + w_1 $$
 
 <details><summary>Calculate the unique Arrow-Debreu equilibrium.</summary>
 
-The unique Arrow-Debreu equilibrium has each consumer consume their endowments. $\hat{c}_0^1 = w_1^0$. 
+<p>The unique Arrow-Debreu equilibrium has each consumer consume their endowments.
+
+<p>$\hat{c}_0^1 = w_1^0$. 
 And for all $t=1,2,3,...$, 
 $\hat{c}_t^t = w_t^t$, 
 $\hat{c}_{t+1}^t = w_{t+1}^t$. 
 
-If we normalize $\hat{p}_1 = 1$, then  $\hat{p}_t = \hat{p}_1 \cdot 2^{t-1}$,
+<p>If we normalize $\hat{p}_1 = 1$, then  $\hat{p}_t = \hat{p}_1 \cdot 2^{t-1}$,
 
 <details markdown="block"><summary>Explanation and Proof</summary>
 
@@ -108,7 +110,7 @@ If we normalize $\hat{p}_1 = 1$, then  $\hat{p}_t = \hat{p}_1 \cdot 2^{t-1}$,
 
 Set up the Lagrangian for generation $t$'s problem:
 
-$$\mathcal{L} = \ln(c_t^t) + c_{t+1}^t$$
+$$\mathcal{L} = \ln(c_t^t) + c_{t+1}^t - \lambda\cdot\left[ p_t c_t^t + p_{t+1} c_{t+1} - p_t w_t^t - p_{t+1} w_{t+1}^t \right]$$
 
 First-order conditions:
 
