@@ -80,9 +80,6 @@ And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
 ### Equilibrium allocations are Autarky
 
-1. First note that every generation has strictly increasing utility and so every budget constraint will hold with equality.
-2. The credit market clearing constraint implies that all savings are zero.
-3. With zero savings, each generations budget constraints imply the result.
 
 ### Finding the equilibrium prices
 
