@@ -15,3 +15,8 @@ Suppose now that there is a storage technology availible in every period $t, t=1
 
 
 
+[Previous](kehoe-olg-c)
+{: .float-left }
+
+[Next](kehoe-olg)
+{: .float-right }

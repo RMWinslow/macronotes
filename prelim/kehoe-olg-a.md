@@ -40,7 +40,7 @@ An Arrow-Debreu Equilibrium consists of:
 
 such that the following conditions are satisfied:
 
-### **Consumer Optimization:** 
+**Consumer Optimization:** 
 Taking prices as given, consumer $0$ chooses $\hat{c_1^0}$ to solve 
 
 $$\begin{aligned} & \underset{c_{1}^{0}}{\text{maximize}} &  & \ln c_1^0\\
@@ -54,22 +54,12 @@ $$&\max_{c_{1}^{0}}&&\ln\left(c_{1}^{0}\right)\\&\text{s.t.}&&c_{1}^{0}\geq0\\&&
 $$\max_{c_{1}^{0}}&&&\ln\left(c_{1}^{0}\right)\\\text{s.t.}&&&c_{1}^{0}\geq0\\&&&\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}$$
 
 ### **Consumer Optimization:** 
-Taking prices as given, consumer $0$ chooses $\hat{c_1^0}$ to solve \\[\max_{c_1^0} \ln (c_1^0) \\] s.t. 
+Taking prices as given, consumer $0$ chooses $\hat{c}_1^0$ to solve \\[\max_{c_1^0} \ln (c_1^0) \\] s.t. 
 
-$$\begin{gather}
-c_1^0 \geq 0 \tag{non-negativity} \\
-x^2\\
-\end{gather}$$
-
-$$\begin{aligned} & \underset{c_{1}^{0}}{\text{maximize}} &  & \ln c_1^0\\
- & \text{subject to}: &  & c_{1}^{0}\geq0\\
- &  &  & \hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}
-\end{aligned}
-$$
-
-$$&\max_{c_{1}^{0}}&&\ln\left(c_{1}^{0}\right)\\&\text{s.t.}&&c_{1}^{0}\geq0\\&&&\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}$$
-
-$$\max_{c_{1}^{0}}&&&\ln\left(c_{1}^{0}\right)\\\text{s.t.}&&&c_{1}^{0}\geq0\\&&&\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}$$
+$$\begin{gathered}
+c_{1}^{0}\geq0\tag{Non-negativity}\\
+\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}\tag{Budget}
+\end{gathered}$$
 
 
 

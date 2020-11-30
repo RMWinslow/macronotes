@@ -20,12 +20,8 @@ Click to expand solutions.
 
 
 </details>
-<br>
 
-
-
-
-
+---
 
 
 
@@ -35,3 +31,8 @@ Click to expand solutions.
 </details>
 
 
+[Previous](kehoe-olg-b)
+{: .float-left }
+
+[Next](kehoe-olg-d)
+{: .float-right }
