@@ -76,7 +76,7 @@ The unique Sequential Markets equilibrium has each consumer consume their endowm
 
 And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
-<details markdown="block"><summary>Explanation and Proof</summary>
+<details  open markdown="block"><summary>Explanation and Proof</summary>
 
 ### Equilibrium allocations are Autarky
 
@@ -88,7 +88,6 @@ And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
 Combine budgets into a single intertemporal budget constraint:
 
-$${c}_t^t + \frac{{c}_{t+1}^t}{1+r} = {w}_t^t + \frac{{w}_{t+1}^t}{1+r}$$
 
 Set up the Lagrangian for generation $t$'s problem:
 
