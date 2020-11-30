@@ -93,8 +93,8 @@ $$c_t^t + \frac{c^t_{1+t}}{1+r}$$
 First-order conditions:
 
 $$\begin{aligned}
-    0 &= \frac{1}{c_t^t} - \lambda_t p_t \\
-    0 &= 1 - \lambda_t p_{t+1} \\
+    0 &= \frac{1}{c_t^t} - \lambda_t \\
+    0 &= 1 - \lambda_t  \\
     p_t c_t^t + p_{t+1} c_{t+1}^t &= w_t^t + w_{t+1}^t\\
 \end{aligned}$$
 
