@@ -88,11 +88,17 @@ And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
 Combine budgets into a single intertemporal budget constraint:
 
-$${c}_t^t + \frac{{c}_{t+1}^t}{1+r} = {w}_t^t + \frac{{w}_{t+1}^t}{1+r}$$
+First-order conditions:
 
-Set up the Lagrangian for generation $t$'s problem:
+$$\begin{aligned}
+    0 &= \frac{1}{c_t^t} - \lambda_t \\
+    0 &= 1 - \lambda_t  \\
+    {c}_t^t + \frac{{c}_{t+1}^t}{1+r} = {w}_t^t + \frac{{w}_{t+1}^t}{1+r}\\
+\end{aligned}$$
 
-$$\mathcal{L} = \ln(c_t^t) + c_{t+1}^t - \lambda\cdot\left[ {c}_t^t + \frac{{c}_{t+1}^t}{1+r} - {w}_t^t - \frac{{w}_{t+1}^t}{1+r} \right]$$
+Combine the first two to get that $\frac{1}{c_t^t} = 1+r_{t+1}$. Plug in the fact that $c_t^t = w_t^t$ to get the result that $r_{t+1} = \frac{1}{c_t^t} - 1$.
+
+With any other prices, the generation $t$ consumer would choose to save or borrow.
 
 
 </details>
