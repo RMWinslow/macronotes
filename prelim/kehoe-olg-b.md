@@ -88,7 +88,7 @@ And $\tilde{r}_{t+1} = \frac{1}{c_t^t} - 1$.
 
 Combine budgets into a single intertemporal budget constraint:
 
-$$c_t^t + \frac{c^t_{1+t}}{1+r}$$
+$$c_t^t + \frac{c^t_{1+t}}{1+r} = w_t^t + \frac{w^t_{1+t}}{1+r}$$
 
 First-order conditions:
 
@@ -110,54 +110,6 @@ With any other prices, the generation $t$ consumer would choose to save or borro
 
 
 
-
-
-
-<details markdown="block"><summary>Calculate the unique Arrow-Debreu equilibrium.</summary>
-
-The unique Arrow-Debreu equilibrium has each consumer consume their endowments.
-$$\hat{c}_0^1 = w_1^0$$. 
-And for all$$t=1,2,3,...$$, 
-$$\hat{c}_t^t = w_t^t$$, 
-$$\hat{c}_{t+1}^t = w_{t+1}^t$$. 
-
-If we normalize $\hat{p}_1 = 1$, then  $\hat{p}_t = \hat{p}_1 \cdot 2^{t-1}$.
-
-<details markdown="block"><summary>Explanation and Proof</summary>
-
-### Equilibrium allocations are Autarky
-
-1. First note that every generation has strictly increasing utility and so every budget constraint will hold with equality.
-2. Generation $0$'s budget constraint implies that $\hat{c}_1^0 = w_1^0$
-3. Plug this into the period $1$ market clearing condition $\hat{c}_1^{0} + \hat{c}_1^1 = w_1^1 + w_1^0$ to get that $\hat{c}_1^1 = w_1^1$.
-4. Plug this into generation $1$'s budget constraint to get that $\hat{c}_2^1 = w_2^1$.
-5. Plug this into the period $2$ market clearing condition to get that to get that $\hat{c}_2^2 = w_2^2$.
-6. Iterate for all generations.
-
-### Finding the equilibrium prices
-
-Set up the Lagrangian for generation $t$'s problem:
-
-$$\mathcal{L} = \ln(c_t^t) + c_{t+1}^t - \lambda\cdot\left[ p_t c_t^t + p_{t+1} c_{t+1} - p_t w_t^t - p_{t+1} w_{t+1}^t \right]$$
-
-First-order conditions:
-
-$$\begin{aligned}
-    0 &= \frac{1}{c_t^t} - \lambda_t p_t \\
-    0 &= 1 - \lambda_t p_{t+1} \\
-    p_t c_t^t + p_{t+1} c_{t+1}^t &= w_t^t + w_{t+1}^t\\
-\end{aligned}$$
-
-Combine the first two to get that $\frac{1}{c_t^t} = \frac{p_t}{p_{t+1}}$. Plug in the fact that $c_t^t = w_t^t = 2$ to get the result that $p_{t+1} = 2\cdot p_t$.
-
-With any other price ratio, the generation $t$ consumer would choose a non-autarky allocation.
-
-So for all the equilibrium conditions to hold, it must be that $\hat{p}_{t+1} = 2\cdot \hat{p}_t$ for all $t=1,2,...$, and so $\hat{p}_t = \hat{p}_1 \cdot 2^{t-1}$
-
-
-</details>
-
-</details>
 
 
 
