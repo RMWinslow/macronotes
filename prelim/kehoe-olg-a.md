@@ -17,6 +17,10 @@ The representative consumer in generation $0$ lives only in period $1$,
 prefers more consumption to less, and has the endowment $w_1^0 = 2$
 
 
+$$\htmlData{alt="This is a test"}{x}$$
+
+$$\htmlStyle{color: red;}{\sum_x x^2}$$
+
 
 
 
@@ -40,12 +44,12 @@ An Arrow-Debreu Equilibrium consists of:
 
 such that the following conditions are satisfied:
 
-**Consumer Optimization:** 
+**Gen $0$ Consumer Optimization:** 
 Taking prices as given, consumer $0$ chooses $\hat{c}_1^0$ to solve 
 
 $$\begin{aligned}
-& \underset{c_{1}^{0}}{\text{maximize}} &  & \ln c_1^0\\
- & \text{s.t.}: &  & c_{1}^{0}\geq0 \\
+& \max_{c_{1}^{0}} &  & \ln c_1^0\\
+ & \text{s.t.} &  & c_{1}^{0}\geq0 \\
  &  &  & \hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0} 
 \end{aligned}$$
 
@@ -53,26 +57,29 @@ $$\max_{c_1^0} \; \ln c_1^0$$
 
 subject to the constraints:
 
-$$c_{1}^{0}\geq0 \tag{Non-neg}$$
-$$\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}  \tag{Budget}$$
+$$\gdef\mytag#1{\tag*{\color{228B22}(#1)}}$$
+
+$$c_{1}^{0}\geq0 \mytag{Non-neg}$$
+
+$$\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}  \mytag{Budget}$$
 
 
-### **Gen $t$ Consumer Optimization:** 
-Taking prices as given, consumer $t,t=1,2,...$ chooses $(\hat{c^t_t}, \hat{c^t_{t+1}})$ to solve
+**Gen $t$ Consumer Optimization:** 
+Taking prices as given, consumer $t,t=1,2,...$ chooses $(\hat{c}^t_t, \hat{c}^t_{t+1})$ to solve
 
 
-$$\begin{aligned} & \max_{c^t_t, c^t_{t+1}} &  & \ln (c_t^t) + c_{t+1}^t\\
- & \text{s.t.}: &  & c_{1}^{0}\geq0\\
- &  &  & \hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}
-\end{aligned}
-$$
+$$\begin{aligned}
+& \max_{c^t_t, c^t_{t+1}} &  & \ln (c_t^t) + c_{t+1}^t\\
+& \text{s.t.}: &  & c_{t}^{t}\geq0 \;\; c_{t+1}^{t}\geq0 \;  \\
+&  &  & \hat{p}_{t}c_{t}^{t}+\hat{p}_{t+1}c_{t+1}^{t}\leq\hat{p}_{t}w_{t}^{t}+\hat{p}_{t+1}w_{t}^{t+1}
+\end{aligned}$$
 
 
 
 ### **Markets Clear:** 
 For all $t=1,2,...$:
 
-$$\hat{c}_t^{t-1} + \hat{c}_t^t = w_2 + w_1 $$
+$$\hat{c}_t^{t-1} + \hat{c}_t^t = w_t^{t-1} + w_t^t$$
 
 
 </details>
@@ -131,17 +138,6 @@ So for all the equilibrium conditions to hold, it must be that $\hat{p}_{t+1} = 
 </details>
 
 
-<details><summary>This is a markdown test</summary>
-
-Pretty sure with the markdown block, It will ignore linebreaks for new paragraphs
-
-which isn't great
-
-but it also means that maths will work nicers.
-
-$x_a$ and $x_b$ and $x_c$ and $x_d$ all on one line.
-
-</details>
 
 
 
