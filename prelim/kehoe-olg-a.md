@@ -41,30 +41,25 @@ such that the following conditions are satisfied:
 ### Gen 0 Consumer Optimization:
 Taking prices as given, consumer $0$ chooses $\hat{c}_1^0$ to solve 
 
-$$\begin{aligned}
-& \max_{c_{1}^{0}} &  & \ln c_1^0\\
- & \text{s.t.} &  & c_{1}^{0}\geq0 \\
- &  &  & \hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0} 
-\end{aligned}$$
-
 $$\max_{c_1^0} \; \ln c_1^0$$
 
 *subject to the constraints:*
 
 $$c_{1}^{0}\geq0 \mytag{Non-neg}$$
 
-$$\mytag{Budget}  \hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}  $$
+$$\hat{p}_{1}c_{1}^{0}\leq\hat{p}_{1}w_{1}^{0}  \mytag{Budget}$$
 
 
 ### Gen t Consumer Optimization:
-Taking prices as given, consumer $t,t=1,2,...$ chooses $(\hat{c}^t_t, \hat{c}^t_{t+1})$ to solve
+Taking prices as given, each consumer $t,t=1,2,...$ chooses $(\hat{c}^t_t, \hat{c}^t_{t+1})$ to solve
 
+$$\max_{c^t_t, c^t_{t+1}} \; \ln (c_t^t) + c_{t+1}^t$$
 
-$$\begin{aligned}
-& \max_{c^t_t, c^t_{t+1}} &  & \ln (c_t^t) + c_{t+1}^t\\
-& \text{s.t.}: &  & c_{t}^{t}\geq0 \;\; c_{t+1}^{t}\geq0 \;  \\
-&  &  & \hat{p}_{t}c_{t}^{t}+\hat{p}_{t+1}c_{t+1}^{t}\leq\hat{p}_{t}w_{t}^{t}+\hat{p}_{t+1}w_{t}^{t+1}
-\end{aligned}$$
+*subject to the constraints:*
+
+$$c_{t}^{t}\geq0 \;\; c_{t+1}^{t}\geq0 \mytag{Non-neg}$$
+
+$$\hat{p}_{t}c_{t}^{t}+\hat{p}_{t+1}c_{t+1}^{t}\leq\hat{p}_{t}w_{t}^{t}+\hat{p}_{t+1}w_{t}^{t+1}  \mytag{Budget}$$
 
 
 
@@ -86,10 +81,10 @@ $$\mytag{Goods MC}  \hat{c}_t^{t-1} + \hat{c}_t^t = w_t^{t-1} + w_t^t$$
 <details markdown="block"><summary>Calculate the unique Arrow-Debreu equilibrium.</summary>
 
 The unique Arrow-Debreu equilibrium has each consumer consume their endowments.
-$\hat{c}_0^1 = w_1^0$. 
-And for all $t=1,2,3,...$, 
-$\hat{c}_t^t = w_t^t$, 
-$\hat{c}_{t+1}^t = w_{t+1}^t$. 
+$$\hat{c}_0^1 = w_1^0$$. 
+And for all$$t=1,2,3,...$$, 
+$$\hat{c}_t^t = w_t^t$$, 
+$$\hat{c}_{t+1}^t = w_{t+1}^t$$. 
 
 If we normalize $\hat{p}_1 = 1$, then  $\hat{p}_t = \hat{p}_1 \cdot 2^{t-1}$.
 
