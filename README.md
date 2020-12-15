@@ -2,6 +2,15 @@
 
 🚀 🐼 weee :confused: asdf :unamused:
 
+
+$$\textcolor{red}{\text{Hello!}}$$
+
+Hello!
+{: .text-red-200 }
+Font sdds
+{: .text-blue-200 }
+Beep
+
 yes
 
 For now, this is a copy of the template repo for the Just The Docs jekyll theme, with some tweaked colors, and the template editted to call MathJax for latex Rendering.
