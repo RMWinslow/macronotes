@@ -11,6 +11,14 @@ Font sdds
 {: .text-blue-200 }
 Beep
 
+
+<article>
+    And this is a test of how default article rendering works here
+    
+    And another paragraph hopefully
+</article>
+
+
 yes
 
 For now, this is a copy of the template repo for the Just The Docs jekyll theme, with some tweaked colors, and the template editted to call MathJax for latex Rendering.
