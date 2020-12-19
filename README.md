@@ -12,11 +12,21 @@ Font sdds
 Beep
 
 
-<article>
+<article markdown="block">
     And this is a test of how default article rendering works here
     
     And another paragraph hopefully
 </article>
+
+<aside markdown="block">
+    # Testing things this is too big
+    
+    Here is something more reasonable.
+    
+    - heloo
+    - hulloo
+    - beep beep
+</aside>
 
 
 yes
