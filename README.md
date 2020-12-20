@@ -28,8 +28,7 @@ Here is something more reasonable.
 - beep beep
 </aside>
 
-It's weird that the aside css works in my minimal jekyll used in the lists substite but it doesn't work here.
-Another change to force a rerender
+more change more rendder
 
 Change this again to force a re-render
 
