@@ -44,7 +44,7 @@ aside {
         margin-top: 0rem; 
         /*Usually margin-top is set to -1 to cancel out the padding, 
         but here I set to 0 so  the visible bounding box is flush with start of paragraph*/
-        background-color: var(--c2);
-        border-left: 3px solid var(--c7); 
+        background-color: red;
+        border-left: 3px solid red; 
     }
 }
