@@ -3,48 +3,9 @@
   display: none;
 }
 
-/*Details and Summary*/
-details {
-    border: 2px solid #eee8d5; 
-    padding: 0.5em .5em 0;
-    margin-bottom: 1ch;
-}
-
-summary {
-    font-weight: bold;
-    margin: -.5em -.5em 0;
-    padding: .5em;
-    background-color: #eee8d5;
-}
 
 article {background: #eee8d5; border-radius: 2; padding: 1em; box-shadow: 0px 1px 0px rgba(0,0,0,0.3)}
 
 /*My attempt at a tufte style sidenote css*/
 /*Little more than tweaking tufte to use an aside because I hate classism*/
 
-aside {
-    color: var(--c7);
-    font-size: .9rem;
-    line-height: 1.3;
-    float: right;
-    clear: right;
-    /*100vw is viewport width*/ 
-    /*100% is parent's width is viewport width*/
-    /*(100vw - 100%) / 2 is therefore the width of one margin*/
-    /*UUGHGHGH. The viewport width includes the scrollbar! WHY?!*/
-    width: 20rem;
-    padding: 1rem;
-    max-width: 50%;
-    /*margin: -1rem   max(-22rem, -1 * (100vw - 100%) / 2  + 1rem)    0     1rem;*/
-    margin: -1em   -22em   0     1em;
-}
-
-@media (max-width: 90em) {
-    aside {
-        margin-top: 0rem; 
-        /*Usually margin-top is set to -1 to cancel out the padding, 
-        but here I set to 0 so  the visible bounding box is flush with start of paragraph*/
-        background-color: #eee8d5;
-        border-left: 3px solid #93a1a1d; 
-    }
-}
