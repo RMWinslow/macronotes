@@ -28,6 +28,8 @@ Beep
     - beep beep
 </aside>
 
+It's weird that the aside css works in my minimal jekyll used in the lists substite but it doesn't work here.
+
 
 yes
 
