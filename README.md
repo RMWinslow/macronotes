@@ -13,19 +13,19 @@ Beep
 
 
 <article markdown="block">
-    And this is a test of how default article rendering works here
-    
-    And another paragraph hopefully
+And this is a test of how default article rendering works here
+
+And another paragraph hopefully
 </article>
 
 <aside markdown="block">
-    # Testing things this is too big
-    
-    Here is something more reasonable.
-    
-    - heloo
-    - hulloo
-    - beep beep
+# Testing things this is too big
+
+Here is something more reasonable.
+
+- heloo
+- hulloo
+- beep beep
 </aside>
 
 It's weird that the aside css works in my minimal jekyll used in the lists substite but it doesn't work here.
