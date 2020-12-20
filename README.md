@@ -32,6 +32,8 @@ It's weird that the aside css works in my minimal jekyll used in the lists subst
 
 The plan is for things to now work with the css where decreasing page size makes the backround brown. I'm adding this so it forces jekyll to rerender this apge.
 
+Change this again to force a re-render
+
 yes
 
 For now, this is a copy of the template repo for the Just The Docs jekyll theme, with some tweaked colors, and the template editted to call MathJax for latex Rendering.
