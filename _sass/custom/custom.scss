@@ -17,7 +17,7 @@ summary {
     background-color: #eee8d5;
 }
 
-article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shadow: 0px 1px 0px rgba(0,0,0,0.3)}
+article {background: #eee8d5; border-radius: 2; padding: 1em; box-shadow: 0px 1px 0px rgba(0,0,0,0.3)}
 
 /*My attempt at a tufte style sidenote css*/
 /*Little more than tweaking tufte to use an aside because I hate classism*/
@@ -44,7 +44,7 @@ aside {
         margin-top: 0rem; 
         /*Usually margin-top is set to -1 to cancel out the padding, 
         but here I set to 0 so  the visible bounding box is flush with start of paragraph*/
-        background-color: red;
-        border-left: 3px solid red; 
+        background-color: #eee8d5;
+        border-left: 3px solid #93a1a1d; 
     }
 }
