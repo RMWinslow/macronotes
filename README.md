@@ -29,8 +29,7 @@ Here is something more reasonable.
 </aside>
 
 It's weird that the aside css works in my minimal jekyll used in the lists substite but it doesn't work here.
-
-The plan is for things to now work with the css where decreasing page size makes the backround brown. I'm adding this so it forces jekyll to rerender this apge.
+Another change to force a rerender
 
 Change this again to force a re-render
 
