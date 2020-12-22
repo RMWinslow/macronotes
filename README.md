@@ -1,3 +1,18 @@
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+
+<div class="mermaid">
+    graph TD
+    A[Client] --> B[Load Balancer]
+    B --> C[Server01]
+    B --> D[Server02]
+</div>
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 🚀 🐼 weee :confused: asdf :unamused:
