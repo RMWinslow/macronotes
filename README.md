@@ -30,7 +30,7 @@ graph TD
 </div>
 {: .mermaid}
 
-
+[More info about mermaid syntax](https://mermaid-js.github.io/mermaid/#/flowchart)
 
 
 ## Welcome to GitHub Pages
