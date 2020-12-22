@@ -23,6 +23,15 @@ And another paragraph hopefully
 
 Here is something more reasonable.
 
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+
 - heloo
 - hulloo
 - beep beep
