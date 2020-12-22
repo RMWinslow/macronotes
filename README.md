@@ -19,7 +19,6 @@ graph LR
     D --> B;
     B ---->|No| E[End];
 </div>
-{ .mermaid}
 
 <div>
 graph TD
@@ -29,7 +28,7 @@ graph TD
     D --> B;
     B ---->|No| E[End];
 </div>
-{ .mermaid}
+{: .mermaid}
 
 
 
