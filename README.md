@@ -6,6 +6,9 @@
     A[Client] --> B[Load Balancer]
     B --> C[Server01]
     B --> D[Server02]
+    E --> F
+    F --> E
+    G --> A
 </div>
 
 
