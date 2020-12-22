@@ -22,6 +22,20 @@ And another paragraph hopefully
 # Testing things this is too big
 
 Here is something more reasonable.
+- heloo
+- hulloo
+- beep beep
+</aside>
+
+more change more rendder
+
+Change this again to force a re-render
+
+yes
+
+
+
+
 
 ```mermaid
 graph TD;
@@ -54,16 +68,6 @@ java ..> rocket
 
 
 
-- heloo
-- hulloo
-- beep beep
-</aside>
-
-more change more rendder
-
-Change this again to force a re-render
-
-yes
 
 For now, this is a copy of the template repo for the Just The Docs jekyll theme, with some tweaked colors, and the template editted to call MathJax for latex Rendering.
 
