@@ -37,18 +37,18 @@ yes
 
 
 
-```mermaid
+~~~mermaid
 graph TD;
   A-->B;
   A-->C;
   B-->D;
   C-->D;
-```
+~~~
 
 Yeh
 
 
-```plantuml
+~~~plantuml
 !define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
 skinparam defaultTextAlignment center
 !include ICONURL/common.puml
@@ -63,7 +63,7 @@ FA5_ROCKET(rocket,Integrated,node) #White
 }
 gitlab ..> java
 java ..> rocket
-```
+~~~
 
 
 
