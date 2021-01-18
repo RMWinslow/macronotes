@@ -71,13 +71,22 @@ yes
 
 
 
-
+With tabs:
 ```mermaid
 graph TD;
   A-->B;
   A-->C;
   B-->D;
   C-->D;
+```
+
+Without tabs:
+```mermaid
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
 ```
 
 Yeh
