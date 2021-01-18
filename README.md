@@ -71,7 +71,8 @@ yes
 
 
 
-With tabs:
+With mermaid declaration:
+
 ```mermaid
 graph TD;
   A-->B;
@@ -80,13 +81,14 @@ graph TD;
   C-->D;
 ```
 
-Without tabs:
-```mermaid
+without:
+
+```
 graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
 ```
 
 Yeh
