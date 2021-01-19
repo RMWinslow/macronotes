@@ -1,6 +1,14 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
 
+
+<div style="font-family: monospace">
+1 2 3 4 | 5 6 7 1&#775; | test
+</div>
+
+1 2 3 4 | 5 6 7 1&#775; | test
+{:.music}
+
 <div class="mermaid">
     graph TD
     A[Client] --> B[Load Balancer]
