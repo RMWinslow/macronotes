@@ -120,7 +120,9 @@ java ..> rocket
 ~~~
 
 
-
+- What If I have a bulleted list?
+- What if I have a bulleted list with a a really really really really really  really really really really really  really really really really really  really really really really really  really really really really really  really really really really really long element?
+- [What if I have a bulleted list with a a really really really really really  really really really really really  really really really really really  really really really really really  really really really really really  really really really really really long element that is also a hyperlink?](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/#collapsible-table-of-contents)
 
 
 For now, this is a copy of the template repo for the Just The Docs jekyll theme, with some tweaked colors, and the template editted to call MathJax for latex Rendering.
